@@ -322,8 +322,8 @@ a {
     height: 120%;
     object-fit: cover;
     object-position: center top;
-    mix-blend-mode: screen;
-    opacity: .95;
+    mix-blend-mode: normal;
+    opacity: 1;
 }
 
 .hero-bottom {
