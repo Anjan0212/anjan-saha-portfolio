@@ -179,7 +179,7 @@ export default function App() {
             </div>
 
             <div className="hero-photo reveal">
-              <img src="/profile.jpg" alt="Anjan Saha" />
+              <img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Anjan Saha" />
             </div>
           </div>
 
@@ -221,7 +221,7 @@ export default function App() {
         <section className="projects section" id="projects">
           <Heading eyebrow="" number="02 FEATURED BUILDS">PROJECTS</Heading>
           <div className="project">
-            <div className="project-image reveal"><span className="project-no">01</span><video width="100%" height="100%" autoPlay loop muted playsInline><source src="/easyDonate - Save Food Share joy.mp4" type="video/mp4" />Your browser does not support the video tag.</video></div>
+            <div className="project-image reveal"><span className="project-no">01</span><video width="100%" height="100%" autoPlay loop muted playsInline><source src={`${import.meta.env.BASE_URL}easyDonate - Save Food Share joy.mp4`} type="video/mp4" /></video></div>
             <div className="project-copy reveal">
               <small>PROJECT 01</small>
               <h3>FOOD WASTE MANAGEMENT<br />SYSTEM</h3>
@@ -257,7 +257,7 @@ export default function App() {
               <Tags items={["HTML", "CSS", "JAVASCRIPT", "REST API", "WEATHERAPI"]} />
               <a className="project-link" href="#contact">ASK ABOUT THIS PROJECT →</a>
             </div>
-            <div className="project-image reveal"><span className="project-no">02</span><img src="/weather-app.jpg" alt="Weather App project" /></div>
+            <div className="project-image reveal"><span className="project-no">02</span><img src={`${import.meta.env.BASE_URL}weather-app.jpg`} alt="Weather App project" /></div>
           </div>
         </section>
 
