@@ -130,7 +130,7 @@ export default function App() {
       <main>
         <section className="hero section" id="home">
           <div className="hero-top">
-            <span>ASPIRING FRONTEND DEVELOPER</span>
+            <span>SOFTWARE DEVELOPER</span>
             <span><i className="dot" /> OPEN TO OPPORTUNITIES</span>
           </div>
 
@@ -154,7 +154,7 @@ export default function App() {
               </h3>
 
               <p>
-                Aspiring Frontend Developer with an MCA background, skilled in HTML, CSS, JavaScript, Python, and Java. I focus on writing clean code to build responsive, intuitive user interfaces.
+                MCA pursuing student Building scalable, responsive, and user-focused digital solutions.
               </p>
               
               <div className="hero-buttons">
