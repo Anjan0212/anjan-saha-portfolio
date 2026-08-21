@@ -159,10 +159,10 @@ export default function App() {
               
               <div className="hero-buttons">
                   <div className="socials">
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/Anjan0212" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                       <i className="fab fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/anjan-saha-188354325" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                     <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
