@@ -7,29 +7,29 @@
 }
 
 :root {
-    --bg: #050606;
-    --card: #0a0d0c;
-    --red: #10b981;     /* Primary Accent: Emerald */
-    --red2: #34d399;    /* Hover Accent: Mint */
-    --white: #f8fafc;   /* Crisp White */
-    --muted: #94a3b8;   /* Slate Muted */
-    --line: #1e293b;    /* Slate Border */
+    --bg: #040206;
+    --card: #09050d;
+    --red: #a855f7;     /* Primary Accent: Purple */
+    --red2: #c084fc;    /* Hover Accent: Light Purple */
+    --white: #faf5ff;   /* Warm/Pinkish White */
+    --muted: #a395b0;   /* Purple-tinted Grey */
+    --line: #2c1d3b;    /* Deep Purple Border */
 }
 
 body {
     background:
         radial-gradient(
             circle at 78% 18%,
-            rgba(16, 185, 129, 0.12) 0%,
-            rgba(5, 150, 105, 0.06) 25%,
+            rgba(168, 85, 247, 0.14) 0%,
+            rgba(126, 34, 206, 0.07) 25%,
             transparent 48%
         ),
         radial-gradient(
             circle at 15% 80%,
-            rgba(52, 211, 153, 0.06) 0%,
+            rgba(192, 132, 252, 0.08) 0%,
             transparent 42%
         ),
-        #050606;
+        #040206;
     color: var(--white);
     font-family: "DM Sans", sans-serif;
     overflow-x: hidden;
@@ -40,8 +40,8 @@ body:before {
     position: fixed;
     inset: 0;
     z-index: -3;
-    background: radial-gradient(circle at 75% 15%, rgba(16, 185, 129, .08), transparent 28%), 
-                radial-gradient(circle at 20% 70%, rgba(5, 150, 105, .05), transparent 30%);
+    background: radial-gradient(circle at 75% 15%, rgba(168, 85, 247, .09), transparent 28%), 
+                radial-gradient(circle at 20% 70%, rgba(126, 34, 206, .06), transparent 30%);
 }
 
 a {
